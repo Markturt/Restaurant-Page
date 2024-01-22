@@ -1,0 +1,82 @@
+.tab{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+.tab>*{
+    width: 30%;
+    min-width: 100px;
+    font-size:30px ;
+    color: rgb(250, 252, 254);
+    background-color: #999a90;
+}
+.tab>*:hover{
+    background-color: #624949;
+    transition: 3s;
+}
+#title{
+    width:250px;
+    margin :2px  auto;
+}
+#aboutpage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: plum;
+    height: 80vh;
+    width: 500px;
+    margin: 0 auto;
+}
+#about>h1{
+    text-align: center;
+    font-size: 40px;
+    color: purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about>p{
+    text-align: center;
+    width:500px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-top: -25px;
+    color:rgb(228, 45, 228);
+    border-bottom: 2px solid rgb(224, 47, 224);
+}
+#imgContainer{
+    display: flex;
+    justify-content:space-around;
+    width: 300px;
+    margin: 4px auto;
+}
+#hours{
+    margin-bottom: 25px;
+    text-align: center;
+}
+#hours>h2~div{
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+#phone>h2{
+    text-align: center;
+}
+#phone>:nth-child(1){
+   margin-bottom: -3px;
+}
+#phone{
+    margin-bottom: 10px;
+}
+#phone>h2~div{
+    font-size: 20px;
+}
+#aboutpage a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(85, 10, 85);
+    width: 220px;
+    padding:5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+}
