@@ -1,7 +1,7 @@
 import "./style.css"
-import phone from "./images/bxs-phone.svg";
-import fb from "./images/bxl-facebook.svg";
-import phone from "./images/bxs-envelope.svg";
+import phoneIcon from "./images/bxs-phone.svg";
+import fbIcon from "./images/bxl-facebook.svg";
+import messageIcon from "./images/bxs-envelope.svg";
 
 function about(){
     let aboutContent=document.createElement("div");
@@ -13,9 +13,9 @@ function about(){
                                 <h1>ABOUT</h1>
                                 <p>our restaurant</p>
                                 <div id=imgContainer>
-                                    <img src="./images/bxs-phone.svg" alt="phone-contact"/>
-                                    <img src="./images/bxl-facebook.svg" alt="facebook icon"/>
-                                    <img src="./images/bxs-envelope.svg" alt="message icon"/>
+                                    <img src=${phoneIcon} alt="phone-contact"/>
+                                    <img src=${fbIcon} alt="facebook icon"/>
+                                    <img src=${messageIcon} alt="message icon"/>
                                 </div>
                             </div>
                             <div id="hours">
