@@ -93,17 +93,17 @@
 #menupage{
     width:1100px ;
     background-color: rgba(222, 225, 225, 0.485);
-    margin:-10px auto -20px auto;
+    margin:10px auto -20px auto;
     padding-bottom: 40px;
 }
-#menu h2{
+#menupage h2{
     
     margin:0 auto;
     width:200px;
     height: 30px;
     color:rgb(220, 90, 220);
 }
-#menu h3{
+#menupage h3{
     color:rgb(216, 160, 216);
 }
 .grid{
