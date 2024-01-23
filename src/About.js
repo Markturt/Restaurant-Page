@@ -1,4 +1,7 @@
 import "./style.css"
+import phone from "./images/bxs-phone.svg";
+import fb from "./images/bxl-facebook.svg";
+import phone from "./images/bxs-envelope.svg";
 
 function about(){
     let aboutContent=document.createElement("div");
