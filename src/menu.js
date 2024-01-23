@@ -5,7 +5,7 @@ function menu(){
     menuContent.className="tabContent";
     menuContent.id="menupage";
 
-    menuContent.innerHTML=`<div id="menu">
+    menuContent.innerHTML=`<div id="menupage">
                             <div id="starters">
                                 <h2>Starters</h2>
                                 <div class="grid">
